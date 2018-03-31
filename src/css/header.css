@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background: #151719;
+  color: #ffffff;
+}
+
+.header__title,
+.header__nav {
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-link {
+  margin: 0 0.5em;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.header__nav-link:hover {
+  border-width: 2px;
+  font-size: 1.6em;
+}
